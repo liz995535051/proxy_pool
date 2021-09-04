@@ -1,0 +1,26 @@
+# redis
+MAX_CONNECTION=10
+PORT=6379
+HOST='localhost'
+MAX_SCORE = 100
+MIN_SCORE = 0
+INITIAL_SCORE = 10
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_PASSWORD = None
+REDIS_KEY = 'proxies'
+
+
+# 抓取
+PAGES=10
+
+# 测试
+TEST_URL='http://httpbin.org/ip'
+TIME_OUT=10
+BATCH_TEST_SIZE=100
+VALID_STATUS_CODES=[200]
+
+
+# api
+API_HOST='127.0.0.1'
+API_PORT=5555
